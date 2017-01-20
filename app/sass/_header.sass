@@ -1,0 +1,419 @@
+.my--container
+  width: 1197px
+  margin: 0 auto
+  position: relative
+  padding-left: 15px
+  padding-right: 15px
+  @media screen and (min-width: 1000px) and (max-width: 1199px)
+    width: 960px
+  @media screen and (min-width: 600px) and (max-width: 999px)
+    width: 600px
+  @media screen and (max-width: 599px)
+    width: 400px
+
+
+// ========style for header========
+// START
+body
+  background-image: url("../img/background.png")
+  height: 2080px
+  @media screen and (max-width: 999px)
+    background-image: url("../img/background_600.png")
+  header
+    @media screen and (max-width: 999px)
+      height: 67px
+    @media screen and (max-width: 599px)
+      height: 60px
+    div.header-top
+      position: relative
+    img.logo
+      margin-top: 3px
+      float: left
+      @media screen and (max-width: 999px)
+        height: 57px
+        width: 122px
+        margin-top: 9px
+      @media screen and (max-width: 599px)
+        height: 45px
+        width: 97px
+        margin-top: 3px
+    h1
+      color: #333333
+      margin-left: 70px
+      margin-top: 13px
+      display: inline-block
+      font-family: 'Arial', sans-serif
+      font-weight: normal
+      font-size: 22.77px
+      line-height: 21.46px
+      letter-spacing: -1px
+      @media screen and (min-width: 1000px) and (max-width: 1199px)
+        margin-left: 40px
+      @media screen and (max-width: 999px)
+        font-size: 18px
+        margin-top: 9px
+        margin-left: 47px
+      @media screen and (max-width: 599px)
+        font-size: 14px
+        margin-top: 3px
+        margin-left: 20px
+      span
+        font-weight: bold
+        font-size: 34.15px
+        @media screen and (max-width: 999px)
+          font-size: 18px
+          font-weight: normal
+        @media screen and (max-width: 599px)
+          font-size: 16px
+      a
+        border-bottom: 2px dotted
+        color: #105a8f
+        font-size: 13px
+        line-height: 16.96px
+        vertical-align: 15px
+        margin-left: 13px
+        @media screen and (max-width: 999px)
+          vertical-align: 5px
+          border-bottom: 1px dotted
+        @media screen and (max-width: 599px)
+          font-size: 11px
+          letter-spacing: -0.5px
+    form
+      position: relative
+      float: left
+      width: 350px
+      @media screen and (max-width: 999px)
+        width: 284px
+      @media screen and (max-width: 599px)
+        width: 189px
+      input.button--img
+        position: absolute
+        left: 302.5px
+        top: 12.3px
+        z-index: 10
+        @media screen and (min-width: 1000px) and (max-width: 1199px)
+          left: 271.5px
+        @media screen and (max-width: 999px)
+          left: 224.5px
+          top: 9.3px
+        @media screen and (max-width: 599px)
+          display: none
+      input.search
+        box-shadow: inset 2px 2px 2px rgba(4, 5, 5, .1)
+        display: inline
+        border: 1px solid rgb( 196, 196, 196 )
+        margin-left: 50px
+        margin-top: 12px
+        width: 308px
+        height: 25px
+        transform: skew(-18deg)
+        font-size: 15px
+        font-family: 'Arial', sans-serif
+        color: rgb( 153, 153, 153 )
+        padding-left: 10px
+        line-height: 80.84px
+        border-radius: 6px 1px
+        @media screen and (min-width: 1000px) and (max-width: 1199px)
+          margin-left: 20px
+        @media screen and (max-width: 999px)
+          width: 240px
+          margin-top: 9px
+          margin-left: 40px
+        @media screen and (max-width: 599px)
+          width: 141px
+          margin-top: 0
+          margin-left: 10px
+          height: 21px
+          font-size: 14px
+    span.call--centre-button
+      background-image: url("../img/call_centre.png")
+      width: 89px
+      height: 94px
+      display: inline-block
+      margin: -42px 0 0 100px
+      position: relative
+      @media screen and (min-width: 1000px) and (max-width: 1199px)
+        margin-left: 66px
+      @media screen and (max-width: 999px)
+        display: none
+      a
+        position: absolute
+        top: 60px
+        left: 5px
+        font-size: 13px
+        font-family: 'Arial', sans-serif
+        font-weight: bold
+        color: #333
+        line-height: 14px
+        text-align: center
+        &:hover
+          color: forestgreen
+    div.you--enter
+      position: absolute
+      top: 7px
+      right: 0
+      @media screen and (max-width: 999px)
+        top: 5px
+        right: 50px
+      @media screen and (max-width: 599px)
+        right: 0
+        top: 0
+      i
+        background-image: url("../img/entry.png")
+        height: 18px
+        width: 18px
+        display: inline-block
+        vertical-align: middle
+        @media screen and (max-width: 599px)
+          height: 15px
+          width: 16px
+          background-size: cover
+      a#hidden--enter
+        font-size: 13px
+        font-family: 'Arial', sans-serif
+        color: #105a8f
+        line-height: 16.96px
+        border-bottom: 2px dotted
+        transition: 0s
+        @media screen and (max-width: 999px)
+          border-bottom: 1px dotted
+          display: none
+      a#hidden--enter--2
+        display: none
+        font-size: 13px
+        font-family: 'Arial', sans-serif
+        color: #105a8f
+        line-height: 16.96px
+        border-bottom: 2px dotted
+        transition: 0s
+        @media screen and (max-width: 999px)
+          border-bottom: 1px dotted
+          display: inline
+        @media screen and (max-width: 599px)
+          font-size: 11px
+    div.you--basket
+      border: 1px solid rgb( 206, 205, 205 )
+      border-radius: 5px
+      background-color: rgba( 12, 93, 146, 0 )
+      width: 211px
+      height: 58px
+      position: absolute
+      top: 40px
+      right: 0
+      @media screen and (max-width: 999px)
+        width: 117px
+        height: 33px
+        top: 33px
+      @media screen and (max-width: 599px)
+        width: 96px
+        height: 27px
+        top: 24px
+      @media screen and (max-width: 450px)
+        height: 24px
+        top: 25px
+      i.basket--pictur
+        background-image: url("../img/basket.png")
+        height: 41px
+        width: 38px
+        margin-top: 3px
+        margin-left: 17px
+        display: inline-block
+        vertical-align: top
+        @media screen and (max-width: 999px)
+          height: 24px
+          width: 21px
+          background-image: url("../img/basket_600.png")
+          margin-left: 9px
+          margin-top: 3px
+        @media screen and (max-width: 599px)
+          height: 19px
+          width: 16px
+          margin-left: 4px
+          margin-top: 2px
+          background-size: cover
+        @media screen and (max-width: 450px)
+          margin-top: 0
+      p
+        display: inline-block
+        a
+          font-size: 23px
+          font-family: 'Arial Black', sans-serif
+          color: #105a8f !important
+          line-height: 26px
+          border-bottom: 2px solid
+          font-style: italic
+          display: inline-block
+          margin-top: 10px
+          letter-spacing: -1px
+          transition: 0s
+          @media screen and (max-width: 999px)
+            font-size: 12.51px
+            line-height: 16.79px
+            border-bottom: 1px solid
+            margin-top: 6px
+          @media screen and (max-width: 599px)
+            margin-top: 0
+      i.arrow
+        background-image: url("../img/basket_arrow.png")
+        height: 12px
+        width: 12px
+        margin-top: 22px
+        margin-left: 12px
+        display: inline-block
+        vertical-align: top
+        @media screen and (max-width: 999px)
+          background: url("../img/basket_arrow_600.png") no-repeat
+          margin-left: 7px
+          margin-top: 12px
+          height: 8px
+          width: 8px
+        @media screen and (max-width: 599px)
+          margin-left: 2px
+          margin-top: 10px
+        @media screen and (max-width: 450px)
+          margin-top: 9px
+        a
+          height: 12px
+          width: 12px
+          display: block
+          @media screen and (max-width: 999px)
+            height: 8px
+            width: 8px
+    div.header--bottom
+      clear: both
+      @media screen and (max-width: 999px)
+        display: none
+      ul
+        list-style: none
+        display: flex
+        margin-top: 8px
+        li
+          margin-right: 13px
+          i.question--icon
+            background-image: url("../img/question.png")
+            height: 15px
+            width: 15px
+            margin-top: 3px
+            display: inline-block
+            vertical-align: text-top
+          a
+            border-bottom: 1px solid
+            font-size: 13px
+            font-family: 'Arial', sans-serif
+            color: #105a8f
+            line-height: 16.96px
+            transition: 0s
+
+// ======== style for header ========
+// FINISH
+
+// ======== navigation ========
+// START
+
+nav
+  clear: both
+
+ul.navigator
+  display: flex
+  list-style: none
+  margin-top: 20px
+  border: 1px solid rgb( 36, 97, 136 )
+  border-radius: 5px
+  background-image: -moz-linear-gradient( 90deg, rgb(84,151,195) 0%, rgb(49,125,175) 5%, rgb(14,99,154) 5%, rgb(4,73,119) 16%, rgb(12,92,143) 60%, rgb(18,100,153) 77%, rgb(24,108,163) 97%, rgb(75,142,185) 97%, rgb(125,175,207) 100%)
+  background-image: -webkit-linear-gradient( 90deg, rgb(84,151,195) 0%, rgb(49,125,175) 5%, rgb(14,99,154) 5%, rgb(4,73,119) 16%, rgb(12,92,143) 60%, rgb(18,100,153) 77%, rgb(24,108,163) 97%, rgb(75,142,185) 97%, rgb(125,175,207) 100%)
+  background-image: -ms-linear-gradient( 90deg, rgb(84,151,195) 0%, rgb(49,125,175) 5%, rgb(14,99,154) 5%, rgb(4,73,119) 16%, rgb(12,92,143) 60%, rgb(18,100,153) 77%, rgb(24,108,163) 97%, rgb(75,142,185) 97%, rgb(125,175,207) 100%)
+  &:last-child li
+    border-right: none !important
+  @media screen and (max-width: 999px)
+    margin-top: 12px
+  @media screen and (max-width: 599px)
+    margin-top: 7px
+  li
+    height: 54px
+    border-right: 1px solid #124364
+    border-left: 1px solid #327199
+    &:nth-child(1)
+      width: 17.167%
+    &:nth-child(2)
+      width: 15.794%
+    &:nth-child(3)
+      width: 16.566%
+    &:nth-child(4)
+      width: 16.91%
+    &:nth-child(5)
+      width: 15.021%
+    &:nth-child(6)
+      width: 18.54%
+    @media screen and (max-width: 999px)
+      border: none
+      height: 36px
+    a.nav--text
+      padding-left: 25px
+      padding-top: 7px
+      display: block
+      height: 100%
+      font-size: 15px
+      font-weight: bold
+      font-family: 'Arial', sans-serif
+      color: #fff
+      line-height: 18px
+      @media screen and (min-width: 1000px) and (max-width: 1199px)
+        font-size: 13px
+        &:nth-child(1)
+          padding-left: 12px
+        &:nth-child(2)
+          padding-left: 5px
+        &:nth-child(3)
+          padding-left: 9px
+        &:nth-child(4)
+          padding-left: 5px
+        &:nth-child(5)
+          padding-left: 5px
+        &:nth-child(6)
+          padding-left: 7px
+      @media screen and (max-width: 999px)
+        display: none
+    i.nav--arrow
+      background-image: url("../img/nav_arrow.png")
+      height: 12px
+      width: 12px
+      margin-top: -34px
+      margin-left: 86%
+      display: inline-block
+      vertical-align: top
+      @media screen and (max-width: 999px)
+        display: none
+      a
+        height: 12px
+        width: 12px
+        display: block
+
+form.select--nav
+  position: absolute
+  top: 6px
+  left: 22px
+  @media screen and (min-width: 1000px)
+    display: none
+  select
+    width: 300px
+    height: 25px
+    font-size: 16px
+    font-weight: bold
+    font-family: 'Arial', sans-serif
+    line-height: 18px
+
+i.button--600
+  background-image: url("../img/nav_button.png")
+  height: 29px
+  width: 34px
+  top: 4px
+  right: 19px
+  display: block
+  position: absolute
+  @media screen and (min-width: 999px)
+    display: none
+
+
+// ======== navigation ========
+// FINISH
+

@@ -1,0 +1,1213 @@
+@import "reset"
+@import "header"
+@import "footer"
+
+a:visited
+  color: #6611cc
+
+
+@font-face
+  font-family: "centurygothic"
+  src: url(../fonts/century_gothic.ttf)
+
+// ======== style 1 section ========
+// START
+
+section#first--section
+  @media screen and (max-width: 999px)
+    height: 618px
+  @media screen and (max-width: 599px)
+    height: 574px
+  div.tabs
+    background: url("../img/bg_tabs.png") no-repeat center left
+    height: 241px
+    width: 764px
+    margin-top: 32px
+    border: 7px solid #689cbe
+    border-radius: 1px
+    position: relative
+    display: inline-block
+    @media screen and (min-width: 600px) and (max-width: 1199px)
+      width: 570px
+    @media screen and (max-width: 599px)
+      width: 100%
+      margin-top: 21px
+    h1
+      font-family: "centurygothic", Arial, sans-serif
+      letter-spacing: -1.5px
+      color: #6640c7
+      font-size: 28.61px
+      font-weight: normal
+      line-height: 35.13px
+      position: absolute
+      margin-left: 35px
+      margin-top: 12px
+      @media screen and (max-width: 599px)
+        font-size: 24.61px
+    h3
+      font-family: "centurygothic", Arial, sans-serif
+      color: #333333
+      font-size: 17px
+      font-weight: normal
+      position: absolute
+      margin-left: 35px
+      margin-top: 85px
+      letter-spacing: -1px
+    a.tabs--button
+      background: url("../img/button_tabs.png")
+      width: 276px
+      height: 46px
+      display: inline-block
+      position: absolute
+      bottom: 19px
+      left: 35px
+      font-family: "centurygothic", Arial, sans-serif
+      color: #fff
+      font-size: 18px
+      font-weight: bold
+      letter-spacing: -0.9px
+      padding: 9px 21px
+    ul li
+      display: inline-block
+      margin-right: 2px
+      width: 20px
+      height: 26px
+      border-radius: 0 0 3px 3px
+      text-align: center
+      margin-top: 229px
+      padding-top: 6px
+      background: #689cbe
+      font-size: 13px
+      font-family: 'Arial', sans-serif
+      font-weight: bold
+      line-height: 18px
+      position: relative
+      a
+        color: #fff
+        width: 16px
+        height: 24px
+        display: block
+        position: absolute
+        top: -1px
+        left: 2px
+        padding-top: 7px
+        padding-right: 1px
+        &:hover
+          background: #fff
+          color: #d10000
+          transition: .3s
+  div.left--tabs-content
+    display: block
+    float: right
+    height: 295px
+    width: 403px
+    @media screen and (min-width: 1000px) and (max-width: 1199px)
+      width: 360px
+    @media screen and (min-width: 600px) and (max-width: 999px)
+      width: 100%
+      height: 315px
+    h2
+      font-size: 25px
+      font-family: 'Arial Black', sans-serif
+      font-weight: bold
+      color: #d10000
+      line-height: 18px
+      letter-spacing: -0.9px
+      transform: skewX(-10deg)
+      margin-top: 32px
+      margin-left: 38px
+      @media screen and (min-width: 1000px) and (max-width: 1199px)
+        margin-left: 33px
+      @media screen and (min-width: 600px) and (max-width: 999px)
+        margin-left: 10px
+      @media screen and (max-width: 599px)
+        margin-top: 17px
+    div.first--tabs
+      margin-top: 22px
+      p
+        font-size: 13px
+        font-family: 'Arial', sans-serif
+        color: #000
+        line-height: 20px
+        padding-left: 110px
+        position: relative
+        &:before
+          content: url("../img/foto1_tabs.png")
+          position: absolute
+          left: 43px
+        @media screen and (min-width: 1000px) and (max-width: 1199px)
+          padding-left: 95px
+          &:before
+            left: 31px
+        @media screen and (min-width: 600px) and (max-width: 999px)
+          padding-left: 80px
+          margin-top: 8px
+          &:before
+            left: 16px
+        a
+          color: #105a8f
+          text-decoration: underline
+        br
+          @media screen and (min-width: 600px) and (max-width: 999px)
+            display: none
+    div.second--tabs
+      margin-top: 26px
+      p
+        font-size: 13px
+        font-family: 'Arial', sans-serif
+        color: #000
+        line-height: 20px
+        padding-left: 110px
+        position: relative
+        &:before
+          content: url("../img/foto2_tabs.png")
+          position: absolute
+          left: 43px
+        @media screen and (min-width: 1000px) and (max-width: 1199px)
+          padding-left: 95px
+          &:before
+            left: 31px
+        @media screen and (min-width: 600px) and (max-width: 999px)
+          padding-left: 80px
+          margin-top: 52px
+          &:before
+            left: 16px
+        a
+          color: #105a8f
+          text-decoration: underline
+        br
+          @media screen and (min-width: 600px) and (max-width: 999px)
+            display: none
+    div.third--tabs
+      margin-top: 26px
+      p
+        font-size: 13px
+        font-family: 'Arial', sans-serif
+        color: #000
+        line-height: 20px
+        padding-left: 110px
+        position: relative
+        &:before
+          content: url("../img/foto3_tabs.png")
+          position: absolute
+          left: 43px
+        @media screen and (min-width: 1000px) and (max-width: 1199px)
+          padding-left: 95px
+          &:before
+            left: 31px
+        @media screen and (min-width: 600px) and (max-width: 999px)
+          padding-left: 80px
+          margin-top: 52px
+          &:before
+            left: 16px
+        a
+          color: #105a8f
+          text-decoration: underline
+        br.br-hidden
+          @media screen and (min-width: 600px) and (max-width: 999px)
+            display: none
+    div.shape
+      i.shape--button
+        background: url("../img/shapebutton.png") no-repeat
+        height: 31px
+        width: 127px
+        display: block
+        margin-left: 43px
+        margin-top: 5px
+        position: relative
+        @media screen and (min-width: 600px) and (max-width: 999px)
+          margin-left: 19px
+          margin-top: 27px
+        a
+          font-size: 15px
+          font-family: 'Arial', sans-serif
+          color: #105a8f
+          line-height: 16.96px
+          text-decoration: underline
+          font-weight: bold
+          position: absolute
+          top: 7px
+          left: 13px
+          &::after
+            content: url("../img/arrow_right.png")
+            position: absolute
+            top: 2px
+            left: 80px
+
+// ======== style 1 section ========
+// FINISH
+
+// ======== style 2 section ========
+// START
+
+#slider
+  clear: both
+
+div.list--of--slider
+  position: relative
+  ul
+    display: flex
+    list-style: none
+    margin-top: 32px
+    i.button--600--2
+      background-image: url("../img/nav_button.png")
+      height: 29px
+      width: 34px
+      top: 11px
+      left: 223px
+      display: block
+      position: absolute
+      @media screen and (min-width: 999px)
+        display: none
+    li
+      margin-left: 27px
+      &:first-child
+        margin-left: 0
+        border-left: 1px solid #689cbe
+        border-right: 1px solid #689cbe
+        border-top: 1px solid #689cbe
+        border-bottom: 1px solid white
+        border-radius: 5px 5px 0 0
+      &:first-child a
+        font-size: 20px
+        color: #d10000
+        border-bottom: none
+      &:nth-child(2), &:nth-child(3), &:nth-child(4)
+        display: block
+        margin-top: 15px
+        @media screen and (max-width: 999px)
+          display: none
+      i
+        background: url("../img/spec_button.png")
+        background-size: cover
+        width: 267px
+        height: 55px
+        display: block
+        padding-top: 14px
+        padding-left: 12px
+        @media screen and (min-width: 1000px)
+          padding-left: 34px
+    a
+      font-size: 18px
+      font-family: 'Arial Black', sans-serif
+      font-weight: bold
+      font-style: italic
+      color: #105a8f
+      line-height: 18px
+      letter-spacing: -0.9px
+      border-bottom: dotted 1px
+  div.all--block--slider
+    width: 100%
+    height: 330px
+    border: 1px solid #689cbe
+    border-radius: 0 5px 5px 5px
+    margin-top: -1px
+    display: flex
+
+
+    .first--picture--slider
+      &:before
+        content: url("../img/left_arrow.png")
+        position: absolute
+        top: 190px
+        left: 6px
+      &::after
+        content: url("../img/right_arrow.png")
+        position: absolute
+        top: 190px
+        right: 6px
+      @media screen and (max-width: 599px)
+        margin-left: 20px
+      img
+        margin-top: 45px
+        margin-left: 64px
+      p.present--1
+        font-size: 13px
+        font-family: 'Arial', sans-serif
+        color: #d10000
+        line-height: 18px
+        margin-left: 77px
+        width: 196px
+      p
+        width: 196px
+        margin-left: 77px
+        a.name--1
+          font-size: 13px
+          font-family: 'Arial', sans-serif
+          color: #105a8f
+          line-height: 18px
+          width: 196px
+          text-decoration: underline
+    a.button--slider1
+      background: url("../img/slide_button.png")
+      width: 139px
+      height: 33px
+      display: inline-block
+      margin-left: 64px
+      font-size: 18px
+      font-family: 'Arial Black', sans-serif
+      font-style: italic
+      color: #333
+      letter-spacing: -0.9px
+      padding-left: 13px
+      padding-top: 3px
+      position: relative
+      span
+        font-size: 13px
+        font-family: 'Arial', sans-serif
+        font-weight: bold
+      &::after
+        content: url("../img/rubish.png")
+        position: absolute
+        top: 6px
+        right: 22px
+    p.final--price1
+      font-size: 11px
+      font-family: 'Arial', sans-serif
+      color: #5c9559
+
+
+    .second--picture--slider
+      @media screen and (min-width: 600px) and (max-width: 999px)
+        width: 295px
+      @media screen and (max-width: 599px)
+        display: none
+      img
+        margin-top: 45px
+        margin-left: 7px
+      p.present--2
+        font-size: 13px
+        font-family: 'Arial', sans-serif
+        color: #d10000
+        line-height: 18px
+        margin-left: 36px
+        width: 184px
+        margin-top: 3px
+      p
+        width: 184px
+        margin-left: 36px
+        a.name--2
+          font-size: 13px
+          font-family: 'Arial', sans-serif
+          color: #105a8f
+          line-height: 18px
+          width: 184px
+          text-decoration: underline
+    a.button--slider2
+      background: url("../img/slide_button2.png")
+      width: 124px
+      height: 33px
+      display: inline-block
+      margin-left: 22px
+      font-size: 18px
+      font-family: 'Arial Black', sans-serif
+      font-style: italic
+      color: #333
+      letter-spacing: -0.9px
+      padding-left: 13px
+      padding-top: 3px
+      position: relative
+      margin-top: 7px
+      span
+        font-size: 13px
+        font-family: 'Arial', sans-serif
+        font-weight: bold
+      &::after
+        content: url("../img/rubish.png")
+        position: absolute
+        top: 6px
+        right: 22px
+    p.price--underline
+      font-size: 15px
+      font-family: 'Arial', sans-serif
+      font-weight: bold
+      color: #999999
+      border-bottom: 1px solid #d10000
+      width: 58px
+      line-height: 2px
+      margin-top: 8px
+      span
+        font-size: 13px
+    p.final--price2
+      font-size: 11px
+      font-family: 'Arial', sans-serif
+      color: #5c9559
+
+
+    .third--picture--slider
+      width: 206px
+      @media screen and (max-width: 999px)
+        display: none
+      img
+        margin-top: 42px
+        margin-left: 7px
+      p.present--3
+        font-size: 13px
+        font-family: 'Arial', sans-serif
+        color: #d10000
+        line-height: 18px
+        margin-left: 36px
+        width: 175px
+        margin-top: 10px
+      p
+        width: 184px
+        margin-left: 36px
+        a.name--3
+          font-size: 13px
+          font-family: 'Arial', sans-serif
+          color: #105a8f
+          line-height: 18px
+          width: 184px
+          text-decoration: underline
+    a.button--slider3
+      background: url("../img/slide_button.png")
+      width: 139px
+      height: 33px
+      display: inline-block
+      margin-left: 22px
+      font-size: 18px
+      font-family: 'Arial Black', sans-serif
+      font-style: italic
+      color: #333
+      letter-spacing: -0.9px
+      padding-left: 13px
+      padding-top: 3px
+      position: relative
+      margin-top: 7px
+      span
+        font-size: 13px
+        font-family: 'Arial', sans-serif
+        font-weight: bold
+      &::after
+        content: url("../img/rubish.png")
+        position: absolute
+        top: 6px
+        right: 20px
+    p.price--underline2
+      font-size: 15px
+      font-family: 'Arial', sans-serif
+      font-weight: bold
+      color: #999999
+      border-bottom: 1px solid #d10000
+      width: 70px
+      line-height: 2px
+      margin-top: 8px
+      span
+        font-size: 13px
+    p.final--price3
+      font-size: 11px
+      font-family: 'Arial', sans-serif
+      color: #5c9559
+
+
+    .fourth--picture--slider
+      width: 200px
+      @media screen and (min-width: 1000px) and (max-width: 1199px)
+        width: 229px
+      @media screen and (max-width: 999px)
+        display: none
+      img
+        margin-top: 31px
+        margin-left: 7px
+      p.present--4
+        font-size: 13px
+        font-family: 'Arial', sans-serif
+        color: #d10000
+        line-height: 18px
+        margin-left: 36px
+        width: 175px
+        margin-top: -16px
+      p
+        width: 184px
+        margin-left: 36px
+        a.name--4
+          font-size: 13px
+          font-family: 'Arial', sans-serif
+          color: #105a8f
+          line-height: 18px
+          width: 184px
+          text-decoration: underline
+    a.button--slider4
+      background: url("../img/slide_button5.png")
+      width: 151px
+      height: 33px
+      display: inline-block
+      margin-left: 22px
+      font-size: 18px
+      font-family: 'Arial Black', sans-serif
+      font-style: italic
+      color: #333
+      letter-spacing: -0.9px
+      padding-left: 13px
+      padding-top: 3px
+      position: relative
+      margin-top: 7px
+      span
+        font-size: 13px
+        font-family: 'Arial', sans-serif
+        font-weight: bold
+      &::after
+        content: url("../img/rubish.png")
+        position: absolute
+        top: 6px
+        right: 20px
+    p.price--underline3
+      font-size: 15px
+      font-family: 'Arial', sans-serif
+      font-weight: bold
+      color: #999999
+      border-bottom: 1px solid #d10000
+      width: 78px
+      line-height: 2px
+      margin-top: 8px
+      span
+        font-size: 13px
+    p.final--price4
+      font-size: 11px
+      font-family: 'Arial', sans-serif
+      color: #5c9559
+
+
+    .fifth--picture--slider
+      width: 266px
+      @media screen and (max-width: 1199px)
+        display: none
+      img
+        margin-top: 40px
+        margin-left: 7px
+      p.present--3
+        font-size: 13px
+        font-family: 'Arial', sans-serif
+        color: #d10000
+        line-height: 18px
+        margin-left: 36px
+        width: 175px
+        margin-top: 5px
+      p
+        width: 184px
+        margin-left: 36px
+        a.name--3
+          font-size: 13px
+          font-family: 'Arial', sans-serif
+          color: #105a8f
+          line-height: 18px
+          width: 184px
+          text-decoration: underline
+    a.button--slider3
+      background: url("../img/slide_button.png")
+      width: 139px
+      height: 33px
+      display: inline-block
+      margin-left: 22px
+      font-size: 18px
+      font-family: 'Arial Black', sans-serif
+      font-style: italic
+      color: #333
+      letter-spacing: -0.9px
+      padding-left: 13px
+      padding-top: 3px
+      position: relative
+      margin-top: 7px
+      span
+        font-size: 13px
+        font-family: 'Arial', sans-serif
+        font-weight: bold
+      &::after
+        content: url("../img/rubish.png")
+        position: absolute
+        top: 6px
+        right: 20px
+    p.price--underline4
+      font-size: 15px
+      font-family: 'Arial', sans-serif
+      font-weight: bold
+      color: #999999
+      border-bottom: 1px solid #d10000
+      width: 70px
+      line-height: 2px
+      margin-top: 8px
+      span
+        font-size: 13px
+    p.final--price3
+      font-size: 11px
+      font-family: 'Arial', sans-serif
+      color: #5c9559
+
+
+    div.shape2
+      position: absolute
+      right: 63px
+      top: 52px
+      @media screen and (max-width: 999px)
+        right: 8px
+        top: 32px
+      @media screen and (max-width: 599px)
+        right: 8px
+        top: 58px
+      i.shape--button2
+        background: url("../img/top_button_slider.png") no-repeat
+        height: 31px
+        width: 224px
+        display: block
+        margin-left: 43px
+        margin-top: 5px
+        position: relative
+        @media screen and (min-width: 600px) and (max-width: 999px)
+          margin-left: 19px
+          margin-top: 27px
+        a
+          font-size: 15px
+          font-family: 'Arial', sans-serif
+          color: #105a8f
+          line-height: 16.96px
+          text-decoration: underline
+          font-weight: bold
+          top: 8px
+          left: 15px
+          position: absolute
+          &::after
+            content: url("../img/arrow_right.png")
+            position: absolute
+            top: 2px
+            left: 175px
+
+// ======== style 2 section ========
+// FINISH
+
+// ======== style 3 section ========
+// START
+
+div.title--and--button
+  display: flex
+  margin-top: 35px
+  @media screen and (max-width: 599px)
+    display: block
+  p
+    width: 50%
+    font-size: 15px
+    font-family: 'Arial', sans-serif
+    color: #333
+    font-style: italic
+    line-height: 18px
+    font-weight: bold
+    margin-top: 5px
+    letter-spacing: -0.5px
+    @media screen and (min-width: 1000px) and (max-width: 1199px)
+      width: 70%
+    @media screen and (max-width: 599px)
+      width: 100%
+      text-align: center
+  div
+    width: 50%
+    @media screen and (min-width: 1000px) and (max-width: 1199px)
+      width: 30%
+    @media screen and (max-width: 599px)
+      width: 100%
+  i
+    background: url("../img/companies_button.png") no-repeat
+    height: 31px
+    width: 203px
+    display: inline-block
+    margin-left: 288px
+    position: relative
+    letter-spacing: -0.9px
+    @media screen and (min-width: 1000px) and (max-width: 1199px)
+      margin-left: 74px
+    @media screen and (min-width: 600px) and (max-width: 999px)
+      margin-left: 80px
+      margin-top: 7px
+    @media screen and (max-width: 599px)
+      margin-left: 77px
+      margin-top: 10px
+    a
+      font-size: 15px
+      font-family: 'Arial', sans-serif
+      color: #105a8f
+      line-height: 16.96px
+      text-decoration: underline
+      font-weight: bold
+      top: 8px
+      left: 15px
+      position: absolute
+      &::after
+        content: url("../img/arrow_right.png")
+        position: absolute
+        top: 2px
+        left: 158px
+
+.product--left
+  width: 50%
+  height: 150px
+  display: inline-block
+  .left--d
+    height: 150px
+    width: 100%
+    .left
+      width: 50%
+      height: 150px
+      display: inline-block
+      @media screen and (max-width: 999px)
+        width: 100%
+      div
+        position: relative
+        &:nth-child(1)
+          height: 75px
+          width: 50%
+          display: inline-block
+          border-bottom: 1px solid #dddcdc
+          img
+            height: 37px
+            width: 72px
+            position: absolute
+            margin: auto
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+        &:nth-child(2)
+          height: 75px
+          width: 50%
+          float: right
+          border-bottom: 1px solid #dddcdc
+          img
+            height: 18px
+            width: 92px
+            position: absolute
+            margin: auto
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+        &:nth-child(3)
+          height: 75px
+          width: 50%
+          display: inline-block
+          img
+            height: 29px
+            width: 70px
+            position: absolute
+            margin: auto
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+        &:nth-child(4)
+          height: 75px
+          width: 50%
+          float: right
+          img
+            height: 26px
+            width: 57px
+            position: absolute
+            margin: auto
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+
+    .right
+      width: 50%
+      height: 150px
+      float: right
+      @media screen and (max-width: 999px)
+        float: none
+        width: 100%
+      div
+        position: relative
+        &:nth-child(1)
+          height: 75px
+          width: 50%
+          display: inline-block
+          border-bottom: 1px solid #dddcdc
+          img
+            height: 45px
+            width: 36px
+            position: absolute
+            margin: auto
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+        &:nth-child(2)
+          height: 75px
+          width: 50%
+          float: right
+          border-bottom: 1px solid #dddcdc
+          img
+            height: 16px
+            width: 93px
+            position: absolute
+            margin: auto
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+        &:nth-child(3)
+          height: 75px
+          width: 50%
+          display: inline-block
+          img
+            height: 36px
+            width: 51px
+            position: absolute
+            margin: auto
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+        &:nth-child(4)
+          height: 75px
+          width: 50%
+          float: right
+          img
+            height: 23px
+            width: 80px
+            position: absolute
+            margin: auto
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+
+
+.product--right
+  width: 50%
+  height: 150px
+  float: right
+  display: inline-block
+  .left--d
+    height: 150px
+    width: 100%
+    .left
+      width: 50%
+      height: 150px
+      display: inline-block
+      @media screen and (max-width: 999px)
+        width: 100%
+      div
+        position: relative
+        &:nth-child(1)
+          height: 75px
+          width: 50%
+          display: inline-block
+          border-bottom: 1px solid #dddcdc
+          img
+            height: 28px
+            width: 54px
+            position: absolute
+            margin: auto
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+        &:nth-child(2)
+          height: 75px
+          width: 50%
+          float: right
+          border-bottom: 1px solid #dddcdc
+          img
+            height: 24px
+            width: 104px
+            position: absolute
+            margin: auto
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+        &:nth-child(3)
+          height: 75px
+          width: 50%
+          display: inline-block
+          img
+            height: 21px
+            width: 100px
+            position: absolute
+            margin: auto
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+        &:nth-child(4)
+          height: 75px
+          width: 50%
+          float: right
+          img
+            height: 22px
+            width: 83px
+            position: absolute
+            margin: auto
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+    .right
+      width: 50%
+      height: 150px
+      float: right
+      @media screen and (max-width: 999px)
+        float: none
+        width: 100%
+      div
+        position: relative
+        &:nth-child(1)
+          height: 75px
+          width: 50%
+          display: inline-block
+          border-bottom: 1px solid #dddcdc
+          img
+            height: 15px
+            width: 73px
+            position: absolute
+            margin: auto
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+        &:nth-child(2)
+          height: 75px
+          width: 50%
+          float: right
+          border-bottom: 1px solid #dddcdc
+          img
+            height: 29px
+            width: 78px
+            position: absolute
+            margin: auto
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+        &:nth-child(3)
+          height: 75px
+          width: 50%
+          display: inline-block
+          img
+            height: 18px
+            width: 55px
+            position: absolute
+            margin: auto
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+        &:nth-child(4)
+          height: 75px
+          width: 50%
+          float: right
+          img
+            height: 31px
+            width: 113px
+            position: absolute
+            margin: auto
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+
+.after--1
+  &::after
+    content: url("../img/vertical_gradient.png")
+    position: absolute
+    right: 0
+    top: 12px
+
+.after--2
+  &::after
+    content: url("../img/vertical_gradient_2.png")
+    position: absolute
+    right: 0
+    bottom: 14px
+
+.focus--600
+  &::after
+    content: url("../img/vertical_gradient.png")
+    position: absolute
+    right: 0
+    top: 12px
+    @media screen and (max-width: 999px)
+      &::after
+      content: ''
+
+.focus--600--2
+  &::after
+    content: url("../img/vertical_gradient_2.png")
+    position: absolute
+    right: 0
+    bottom: 14px
+    @media screen and (max-width: 999px)
+      &::after
+      content: ''
+
+//======== style 3 section ========
+//FINISH
+//
+//======== style 4 section ========
+//START
+
+div.all--li
+  width: 100%
+  display: flex
+  margin-top: 40px
+  .li--Block
+    width: calc(100% / 4)
+    display: flex
+    @media screen and (max-width: 999px)
+      display: inline-block
+    ul
+      list-style: none
+      text-align: center
+      width: calc(100% / 2)
+      @media screen and (max-width: 999px)
+        width: 100%
+      li a
+        color: #105a8f
+        font-size: 11px
+        font-family: 'Arial', sans-serif
+        line-height: 20px
+        text-decoration: underline
+        &:hover
+          color: #d42626
+      li.breake a
+        line-height: 12px !important
+        display: block
+
+//======== style 4 section ========
+//FINISH
+//
+//======== style 5 section ========
+//START
+
+.second--line
+  color: #e6e6e6
+  height: 1px
+  margin: 30px 0
+
+//======== style 5 section ========
+//FINISH
+//
+//======== style 6 section ========
+//START
+
+.drops
+  @media screen and (max-width: 599px)
+    margin-bottom: 20px
+
+div.top--content
+  display: flex
+  @media screen and (max-width: 599px)
+    display: block
+    width: 100%
+    text-align: center
+  h2
+    font-size: 20px
+    font-family: 'Arial Black', sans-serif
+    font-style: italic
+    color: #333
+    letter-spacing: -0.9p
+    line-height: 18px
+    width: 70%
+    @media screen and (min-width: 600px) and (max-width: 999px)
+      width: 50%
+    @media screen and (max-width: 599px)
+      width: 100%
+  div.botton--footer
+    width: 30%
+    @media screen and (max-width: 599px)
+      width: 100%
+      margin-top: 20px
+    i
+      background: url("../img/last_botton.png")
+      width: 238px
+      height: 30px
+      display: inline-block
+      margin-left: 50px
+      position: relative
+      letter-spacing: -0.9px
+      @media screen and (min-width: 600px) and (max-width: 999px)
+        margin-top: -7px
+      @media screen and (max-width: 599px)
+        margin-left: 0
+      .last--botton
+        font-size: 15px
+        font-family: 'Arial', sans-serif
+        color: #105a8f
+        line-height: 16.96px
+        text-decoration: underline
+        font-weight: bold
+        top: 8px
+        left: 15px
+        position: absolute
+        &::after
+          content: url("../img/arrow_right.png")
+          position: absolute
+          top: 2px
+          left: 181px
+
+div.group--final--products
+  width: 100%
+  display: flex
+  margin-top: 20px
+  @media screen and (max-width: 999px)
+    display: block
+  .final--products
+    width: calc(100% / 4)
+    display: inline-block
+    @media screen and (max-width: 999px)
+      display: flex
+      width: 100%
+    &:nth-child(1) img
+      margin-top: 11px
+    &:nth-child(2) img
+      margin-top: 43px
+    .last--title
+      margin-top: 15px
+      .title--1
+        font-weight: normal
+        .visited
+          color: #105a8f
+          &:visited
+          color: #6611cc
+          @media screen and (max-width: 999px)
+            margin-left: 20px
+          @media screen and (max-width: 599px)
+            margin-left: 0
+      .title--2, .title--3, .title--4
+        font-weight: normal
+        width: 90%
+        @media screen and (min-width: 1000px) and (max-width: 1199px)
+          width: 80%
+        @media screen and (max-width: 999px)
+          width: 100%
+          margin-left: 20px
+        @media screen and (max-width: 599px)
+          margin-left: 0
+      a
+        font-size: 15px
+        font-family: 'Arial', sans-serif
+        color: #105a8f
+        line-height: 20px
+        text-decoration: underline
+    p
+      font-size: 13px
+      font-family: 'Arial', sans-serif
+      color: #333
+      line-height: 20px
+      width: 270px
+      margin-top: 15px
+      @media screen and (min-width: 1000px) and (max-width: 1199px)
+        width: 205px
+      @media screen and (max-width: 999px)
+        width: 400px
+        margin-left: 20px
+      @media screen and (max-width: 599px)
+        margin-left: 0
+        width: 380px
+
+//======== style 6 section ========
+//FINISH
+//
+//======== style 7 section ========
+//START
+
+
+

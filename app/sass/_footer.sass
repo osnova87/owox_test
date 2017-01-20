@@ -1,0 +1,303 @@
+footer
+  @media screen and (max-width: 599px)
+    padding-top: 20px
+    border-top: 1px solid #e6e6e6
+
+div.last--line
+  background: url("../img/last_line.png")
+  height: 60px
+  width: 100%
+  margin-top: 25px
+  @media screen and (min-width: 1000px) and (max-width: 1199px)
+    background: url("../img/last_line_1000.png")
+  @media screen and (max-width: 999px)
+    background: url("../img/last_line_600.png")
+  @media screen and (max-width: 599px)
+    display: none
+.how--we-are
+  @media screen and (max-width: 999px)
+    padding-left: 10px
+  @media screen and (max-width: 599px)
+    padding-left: 0
+    text-align: center
+  h2
+    font-size: 15px
+    font-family: 'Arial', sans-serif
+    color: #333
+    line-height: 18px
+    font-weight: normal
+    margin-top: 20px
+.footer--bottom
+  ul
+    list-style: none
+    display: flex
+    @media screen and (max-width: 999px)
+      display: inline-block
+      padding-left: 10px
+    li
+      margin-right: 13px
+      @media screen and (max-width: 999px)
+        float: left
+      i.question--icon
+        background-image: url("../img/question.png")
+        height: 15px
+        width: 15px
+        margin-top: 3px
+        display: inline-block
+        vertical-align: text-top
+      a
+        border-bottom: 1px solid
+        font-size: 13px
+        font-family: 'Arial', sans-serif
+        color: #105a8f
+        line-height: 16.96px
+        transition: 0s
+
+
+div.footer--hard--block
+  width: 100%
+  margin-top: 25px
+  display: flex
+  @media screen and (max-width: 999px)
+    display: block
+    margin-top: 0
+  .first--footer--block
+    width: 50%
+    display: flex
+    @media screen and (max-width: 999px)
+      width: 100%
+      display: block
+    .footer--block1
+      width: 50%
+      @media screen and (max-width: 999px)
+        width: 100%
+        display: flex
+      .block1
+        @media screen and (max-width: 999px)
+          width: 50%
+          margin-top: 10px
+          padding-left: 10px
+        p
+          &:nth-child(1)
+            font-size: 13px
+            font-family: 'Arial', sans-serif
+            color: #333
+            line-height: 22px
+          &:nth-child(2)
+            font-size: 24px
+            font-family: 'Arial', sans-serif
+            color: #333
+            line-height: 21.46px
+            letter-spacing: -0.9px
+            span
+              font-weight: bold
+          &:nth-child(3)
+            a
+              border-bottom: 1px dashed
+              font-size: 13px
+              font-family: 'Arial', sans-serif
+              color: #105a8f
+              line-height: 16.96px
+      .block2
+        margin-top: 12px
+        @media screen and (max-width: 999px)
+          width: 50%
+        i
+          display: block
+          background: url("../img/footer_botton.png")
+          width: 173px
+          height: 30px
+          position: relative
+          a
+            border-bottom: 1px solid
+            font-size: 13px
+            font-family: 'Arial', sans-serif
+            color: #105a8f
+            line-height: 16.96px
+            position: absolute
+            top: 7px
+            left: 13px
+        .block--of--rule
+          margin-top: 40px
+          margin-bottom: 50px
+          @media screen and (max-width: 999px)
+            margin-top: 8px
+            margin-bottom: 15px
+        .rule
+          border-bottom: 1px solid
+          font-size: 13px
+          font-family: 'Arial', sans-serif
+          color: #105a8f
+          line-height: 16.96px
+    .footer--block2
+      width: 50%
+      @media screen and (max-width: 999px)
+        width: 100%
+        display: flex
+      .block1--a
+        font-size: 13px
+        font-family: 'Arial', sans-serif
+        line-height: 22px
+        @media screen and (max-width: 999px)
+          width: 50%
+          padding-left: 10px
+        @media screen and (max-width: 599px)
+          width: 100%
+          text-align: center
+          margin-top: 10px
+        p
+          &:nth-child(1)
+            font-weight: bold
+      .block1--b
+        font-size: 13px
+        font-family: 'Arial', sans-serif
+        line-height: 23px
+        margin-top: 10px
+        @media screen and (max-width: 999px)
+          width: 50%
+          margin-top: 0
+        @media screen and (max-width: 999px)
+          display: none
+        i
+          background: url("../img/visamaster.png")
+          width: 222px
+          height: 28px
+          display: block
+
+  .second--footer--block
+    width: 50%
+    display: flex
+    @media screen and (max-width: 999px)
+      width: 100%
+      display: block
+    .footer--block1--buttom
+      width: 50%
+      position: relative
+      @media screen and (max-width: 999px)
+        width: 100%
+        display: flex
+        clear: both
+        height: 66px
+        border-bottom: 1px solid #e6e6e6
+      @media screen and (max-width: 599px)
+        display: block
+        border-bottom: none
+      &::after
+        content: url("../img/vertical_gradient_footer.png")
+        position: absolute
+        right: 0
+        bottom: 63px
+        @media screen and (max-width: 999px)
+          content: ''
+      div
+        &:nth-child(2)
+          margin-top: 10px
+          @media screen and (max-width: 999px)
+            margin-left: 30px
+          @media screen and (max-width: 599px)
+            margin-left: 0
+            text-align: center
+        &:nth-child(3)
+          margin-top: 10px
+          @media screen and (max-width: 999px)
+            margin-left: 30px
+          @media screen and (max-width: 599px)
+            margin-left: 0
+            text-align: center
+        @media screen and (max-width: 999px)
+          &:nth-child(1)
+            margin-top: 10px
+            margin-left: 10px
+            @media screen and (max-width: 599px)
+              margin-left: 0
+              text-align: center
+
+        .fb
+          font-size: 13px
+          font-family: 'Arial', sans-serif
+          line-height: 20px
+          color: #105a8f
+          position: relative
+          border-bottom: 1px solid
+          margin-left: 37px
+          &::before
+            position: absolute
+            bottom: -15px
+            right: 102px
+            content: url("../img/fb.png")
+        .vk
+          font-size: 13px
+          font-family: 'Arial', sans-serif
+          line-height: 20px
+          color: #105a8f
+          position: relative
+          border-bottom: 1px solid
+          margin-left: 37px
+          &::before
+            position: absolute
+            bottom: -15px
+            right: 163px
+            content: url("../img/vk.png")
+        .tw
+          font-size: 13px
+          font-family: 'Arial', sans-serif
+          line-height: 20px
+          color: #105a8f
+          position: relative
+          border-bottom: 1px solid
+          margin-left: 37px
+          &::before
+            position: absolute
+            bottom: -15px
+            right: 73px
+            content: url("../img/tw.png")
+
+    .footer--block2--buttom
+      width: 50%
+      @media screen and (max-width: 999px)
+        width: 100%
+        display: flex
+        margin-bottom: 50px
+        margin-top: 35px
+      @media screen and (max-width: 599px)
+        margin-bottom: 12px
+      div.logo_bottom
+        @media screen and (max-width: 999px)
+          margin-left: 100px
+          margin-top: 3px
+        @media screen and (max-width: 599px)
+          display: none
+        i
+          background: url("../img/footer_logo.png")
+          width: 120px
+          height: 23px
+          margin-left: 37px
+          display: block
+          @media screen and (max-width: 999px)
+            margin-right: 10px
+      div.old--div
+        @media screen and (max-width: 599px)
+          text-align: center
+          width: 100%
+        p
+          margin-left: 37px
+          font-size: 11px
+          font-family: 'Arial', sans-serif
+          line-height: 15px
+          width: 70%
+          @media screen and (max-width: 999px)
+            margin-left: 0
+          @media screen and (max-width: 599px)
+            margin: auto 70px
+            width: auto
+          a
+            border-bottom: 1px solid
+            color: #105a8f
+      .last--p
+        margin-left: 37px
+        font-size: 11px
+        font-family: 'Arial', sans-serif
+        line-height: 15px
+        color: #999999
+        @media screen and (max-width: 999px)
+          margin-left: 0
